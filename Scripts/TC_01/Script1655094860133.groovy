@@ -25,6 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('YOYO')
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), '0ClzrYmuQ6rTvZx/hy7OzMDNKamVdEem')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Keys.chord(Keys.ENTER))

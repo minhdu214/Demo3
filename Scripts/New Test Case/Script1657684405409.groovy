@@ -59,3 +59,4 @@ WebUI.delay(GlobalVariable.NormalPageLoad)
 
 WebUI.acceptAlert()
 
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'))
